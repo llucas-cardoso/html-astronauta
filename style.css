@@ -1,0 +1,24 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.espaco{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(/Imagens/espaco.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+    z-index: -1;
+}
+div.astronauta img{
+  width: 20%;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
